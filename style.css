@@ -1,0 +1,122 @@
+/* navbar-banner */
+.word-rotator-words b {
+  display: none;
+}
+.word-rotator-words b.is-visible {
+  display: inline;
+}
+@media (max-width: 992px) {
+  .centered {
+      width: 90%; /* Adjust the width as needed */
+      margin: auto;
+      padding: 5px;
+      top: 40%; /* Adjust the vertical position as needed */
+  }
+  .word-rotator-words {
+      display: block;
+      text-align: center;
+      margin-top: 10px; /* Add some space between words on small screens */
+  }
+  .word-rotator {
+    white-space: normal !important;
+    }
+    
+}
+@media (max-width: 576px) {
+  .centered {
+    position: relative; /* Change to relative positioning */
+  }
+  .word-rotator-words {
+    position: absolute;
+    
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .word-rotator {
+    white-space: normal !important;
+    }
+}
+
+/* navbar */
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+
+  .brand-name {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1; 
+  }
+  .navbar-toggler{
+    order: 3;
+  }
+
+  @media only screen and (min-width: 360px) {
+    
+    .offcanvas.offcanvas-end ul.navbar-nav li {
+        
+        padding-bottom: 5px; 
+      }
+    .offcanvas.offcanvas-end{
+        transition: width 0.3s ease; 
+        width: fit-content; 
+        
+        height: fit-content;
+        
+      }
+      .offcanvas.show {
+        width: fit-content;
+      }
+      .navbar-brand
+      {
+        font-size: 15px;
+      }
+      
+
+}
+  @media (min-width: 992px) {
+    .brand-name {
+      font-size: 360px;
+      
+    }
+  }
+
+
+
+/* form-popup */
+.enquiry-form {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  width: 400px;
+  background-color: #dad9d8;
+  text-align: center;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+#callUs{
+  background-color: #6d99cc;
+   text-align: center; 
+   justify-content: center; 
+   width: 100vw;  
+   padding: 0px; 
+   margin: 0px;
+}
