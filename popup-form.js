@@ -40,7 +40,7 @@ function popUpSubmitForm()
     "Message": document.getElementById("Popupmessage").value
 };
 
-fetch('https://script.google.com/macros/s/AKfycbwn4ImON6egkT2hdPE7moz_DIfUjxlQjksNI3dVyfdj39DDZWcL0HMhaq2qsCUNUOKwIw/exec',{
+fetch('https://script.google.com/macros/s/AKfycbzoo4VQARGSi29yoBWbyse35TjUwyF0paX6eqTMgcny4XUvSnYCwFzjZbcOU4U3px4/exec',{
     method :'POST',
     headers:{
         'Content-Type': 'application/x-www-form-urlencoded',
@@ -79,7 +79,7 @@ function submitForm(    ) {
         "Message": document.getElementById("message").value
     };
 
-    fetch('https://script.google.com/macros/s/AKfycbwn4ImON6egkT2hdPE7moz_DIfUjxlQjksNI3dVyfdj39DDZWcL0HMhaq2qsCUNUOKwIw/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbzoo4VQARGSi29yoBWbyse35TjUwyF0paX6eqTMgcny4XUvSnYCwFzjZbcOU4U3px4/exec', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
